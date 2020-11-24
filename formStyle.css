@@ -1,0 +1,128 @@
+:root{
+    --darkBlue: #1E5772;
+    --midBlue: #376986;
+    --lightBlue: #90ACC0;
+    --textColDark: #1A1A1A;
+    --textColLight: #ffffff;
+    --headerTextCol: #1E5772;
+    --borderCol: #E3E3E3;
+}
+
+/* input */
+input, select, textarea{
+    border: 1px solid var(--darkBlue);
+    border-radius: 3px;
+    padding:15px;
+    margin-bottom: 20px;
+    resize: none;
+
+}
+.radioField{
+    margin: 10px 0px 20px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px 20px 0px
+}
+
+fieldset{
+    border: 0px;
+    padding: 0px;
+    max-width: 720px;
+}
+
+.fieldText{
+    color: var(--darkBlue);
+    margin: 0px;;
+}
+
+.textSpace{
+    margin-top: 15px;
+}
+
+fieldset .text a{
+    color: var(--darkBlue);
+    text-decoration: underline;
+    position: relative;
+}
+
+.conditional{
+    display: none;
+    margin-left: 20px;
+} 
+
+
+/* radio */
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--darkBlue);
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+input[type="radio" i]:checked{
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--darkBlue);
+    background-color: var(--darkBlue);
+    appearance: none;
+    border-radius: 100%;
+}
+
+.fieldTitle{
+    color: var(--darkBlue);
+}
+
+
+/* 2col */
+.col2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fieldRow{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.fieldRow:first-child{
+    margin-right: 20px;
+}
+
+input[type="text"], select, input[type="password"]{
+    margin-top: 10px;
+    width: 100%;
+}
+
+select{
+    appearance: none;
+    position: relative;
+}
+
+.arrowDown{
+    position: absolute;
+    bottom: 35px;
+    right:10px;
+    width: 15px;
+}
+
+#ProgramEligibility1{
+    display: block;
+}
+
+#ProgramEligibility2{
+    display: none;
+}
+
+
+#result1{
+    display: none;
+}
+
+#result2{
+    display: none;
+}

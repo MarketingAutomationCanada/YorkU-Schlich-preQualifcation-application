@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>York U</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formStyle.css">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+    
+    
+    <section id="forms" class="wrapper">
+        <!-- form title / current page name -->
+        <div class="logo">
+            <img src="assets/SchulichYork_Digital_Horiz_FINAL.png" alt="Schulich York">
+        </div>
+        <div class="formHeader">
+            <h1>Schulich Application Portal</h1>
+            <p class="subText">Program Eligibility</p>
+        </div>
+        <div class="formContainer">
+            <main>
+              
+       
+                <!-- Program Eligibility – 1 -->
+                <form id="ProgramEligibility1" >
+                    <h2>Prior to creating your login and starting your
+                    application, we need to determine your
+                    program eligibility</h2>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="programIntrest">Primary program of interest? *</label>
+                        <!-- select -->
+                        <select id="programIntrest" required>
+                            <option selected value="select">select</option>
+                            <option value="Master of Marketing">Master of Marketing</option>
+                            <option value="Master of Management">Master of Management</option>
+                            <option value="Kellogg-Schulich Executive MBA">Kellogg-Schulich Executive MBA</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="programIntrest">Secondary program of interest? *<br>Note you can only have one active application.</label>
+                        <!-- select -->
+                        <select id="programIntrest" required>
+                            <option selected value="select">select</option>
+                            <option value="Master of Marketing">Master of Marketing</option>
+                            <option value="Master of Management">Master of Management</option>
+                            <option value="Kellogg-Schulich Executive MBA">Kellogg-Schulich Executive MBA</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="programIntrest">When do you plan to start your desired program? *</label>
+                        <!-- select -->
+                        <select id="programIntrest" required>
+                            <option selected value="select">select</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- radio -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle">Do you have advanced spoken proficiency in a
+                        language other than English? *</label>
+                    </div>
+                    <div class="radioField">
+                        <!-- yes -->
+                        <input type="radio" checked name="yorkStudent" id="yes">
+                        <label for="yes" class="text radioBTN">Yes</label>
+                         <!-- no -->
+                        <input type="radio" name="yorkStudent" id="no">
+                        <label for="no" class="text radioBTN">No</label>
+                    </div>
+                    <!-- select -->  
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="programIntrest">How many years of post-graduate full-time /
+                        internship work experience will you have by the
+                        time of your desired start date for your preferred
+                        program? *</label>
+                        <!-- select -->
+                        <select id="programIntrest" required>
+                            <option selected value="select">select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- email -->
+                    <label class="text fieldTitle" for="email2">Email *</label>
+                    <input id="email2" type="text" placeholder="JainDoe@email.ca">
+                    <!-- next -->
+                    <button id="nextBtn" class="btn btnStyle3">Next</button>
+                </form>
+
+                <!-- Program Eligibility – 2 -->
+                <form id="ProgramEligibility2" >
+                    <h2>Tell us about your academic history:</h2>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="major">What was your undergraduate major,and when did you complete it? *</label>
+                        <!-- select -->
+                        <select id="major" required>
+                            <option selected value="select">Select Major</option>
+                            <option value="MMKG">MMKG</option>
+                            <option value="MMgt">MMgt</option>
+                            <option value="MREI">MREI</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="yrComplete">Year completed *</label>
+                        <!-- select -->
+                        <select id="yrComplete" required>
+                            <option selected value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="coursesTaken">Have you taken the following courses in your
+                        undergrad program? *</label>
+                        <!-- select -->
+                        <select id="coursesTaken" required>
+                            <option selected value="select">select</option>
+                            <option value="Master of Marketing">Master of Marketing</option>
+                            <option value="Master of Management">Master of Management</option>
+                            <option value="Kellogg-Schulich Executive MBA">Kellogg-Schulich Executive MBA</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                  
+                   
+                    <!-- select -->
+                    <div class="fieldRow">
+                        <label class="text fieldTitle" for="gpa">What is your overall GPA for the last two years of your undergrad? If you cannot recall, please use the cumulative GPA for all years instead.</label>
+                        <!-- select -->
+                        <select id="gpa" required>
+                            <option selected value="select">select</option>
+                            <option value="1">1.0</option>
+                            <option value="2">2.0</option>
+                            <option value="3">3.0</option>
+                            <option value="3">4.0</option>
+                        </select>
+                        <!-- drop down icon -->
+                        <div class="arrowDown">
+                            <img src="assets/down.svg" alt="">
+                        </div>
+                    </div>
+                   
+                    <div class="footerNav flex-row-spaceBetween">
+                            <button id="prevBtn" class="btn btnStyle1"><i class="fas fa-angle-left"></i> Previous</button>
+                            <button id="continueBtn" class="btn btnStyle2">Continue <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </form>
+
+
+              
+            </main>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="copyRight">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</p>
+                <p class="text">© Copyright 2020 The Schulich School of Business, York University.</p>
+            </div>
+
+
+        </footer>
+    </section>
+    <section id="result1" class="wrapper2">
+        <!-- form title / current page name -->
+        <div class="logo">
+            <img src="assets/SchulichYork_Digital_Horiz_FINAL.png" alt="Schulich York">
+        </div>
+        <div id="showR2" class="formHeader">
+            <h1>Schulich Application Portal</h1>
+            <p class="subText">Program Eligibility</p>
+        </div>
+        <div class="formContainer">
+            <main>
+            
+                    <p class="text fieldTitle">You currently meet the eligibility requirements
+                    for the following programs:</p>
+                    <div class="gallery">
+                        <div class="resultBox">
+                            <img src="/assets/r1.png" alt="">
+                            <div class="resultBoxInfo">
+                                <p class="rTitle">International Master of
+                                Business Administration</p>
+                                <p class="rCode">IMBA</p>
+                                <p class="rContent">
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                </p>
+                                <a href="">View Program</a>
+                            </div>
+                        </div>
+
+                        <div class="resultBox">
+                            <img src="/assets/r2.png" alt="">
+                            <div class="resultBoxInfo">
+                                <p class="rTitle">Bachelor of Business
+                                Administration</p>
+                                <p class="rCode">BBA</p>
+                                <p class="rContent">
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                </p>
+                                <a href="">View Program</a>
+                            </div>
+                        </div>
+
+                        <div class="resultBox">
+                            <img src="/assets/r3.png" alt="">
+                            <div class="resultBoxInfo">
+                                <p class="rTitle">Master of Business
+                                Administration</p>
+                                <p class="rCode">MBA</p>
+                                <p class="rContent">
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                </p> 
+                                <a href="">View Program</a>
+                            </div>
+                           
+                        </div>
+
+                        <div class="resultBox">
+                            <img src="/assets/r4.png" alt="">
+                            <div class="resultBoxInfo">
+                                <p class="rTitle">International Master of
+                                Business Administration</p>
+                                <p class="rCode">IMBA</p>
+                                <p class="rContent">
+                                    Explore unprecedented
+                                    opportunities in the booming
+                                    field of business analytics.
+                                </p>
+                                <a href="">View Program</a>
+                            </div>
+                        </div>
+                    </div>
+                
+             
+            </main>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="copyRight">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua.</p>
+                <p class="text">© Copyright 2020 The Schulich School of Business, York University.</p>
+            </div>
+    
+    
+        </footer>
+    </section>
+      <section id="result2" class="wrapper">
+        <!-- form title / current page name -->
+        <div class="logo">
+            <img src="assets/SchulichYork_Digital_Horiz_FINAL.png" alt="Schulich York">
+        </div>
+        <div class="formHeader">
+            <h1>Schulich Application Portal</h1>
+            <p class="subText">Program Eligibility</p>
+        </div>
+        <div class="formContainer">
+            <main>
+            
+                    <p class="neg-header fieldTitle">Thank you for sharing your information with us.</p>
+
+                    <p class="text fieldTitle neg-text">
+                        Although we do not see a current match for our
+                        programs based on your submission, we invite you to review the program <a href="">specific pages</a> for insights and <a href="">eligibility details</a>.
+                    </p>
+                    <p class="text fieldTitle">
+                        Explore more Programs with our <a  href="">Program Finder</a>.
+                    </p>
+                
+             
+            </main>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="copyRight">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua.</p>
+                <p class="text">© Copyright 2020 The Schulich School of Business, York University.</p>
+                
+            </div>
+    
+    
+        </footer>
+    </section>
+    <script>
+        const nextBtn = document.getElementById('nextBtn')
+            nextBtn.addEventListener('click', function () {
+                event.preventDefault()
+                const form1 = document.getElementById('ProgramEligibility1');
+                form1.style.display = "none"
+                const form2 = document.getElementById('ProgramEligibility2');
+                form2.style.display = "block"
+            });
+             const prevBtn = document.getElementById('prevBtn')
+                prevBtn.addEventListener('click', function () {
+                    event.preventDefault()
+                    const form1 = document.getElementById('ProgramEligibility1');
+                    form1.style.display = "block"
+                    const form2 = document.getElementById('ProgramEligibility2');
+                    form2.style.display = "none"
+                });
+                  const continueBtn = document.getElementById('continueBtn')
+                    continueBtn.addEventListener('click', function () {
+                        event.preventDefault()
+                        const forms = document.getElementById('forms');
+                        forms.style.display = "none"
+                       
+                         const result1 = document.getElementById('result1');
+                        result1.style.display = "block"
+                    }); 
+                    
+                     const showR2 = document.getElementById('showR2')
+                        showR2.addEventListener('click', function () {
+                            event.preventDefault()
+                            const forms = document.getElementById('forms');
+                            forms.style.display = "none"
+
+                            const result1 = document.getElementById('result1');
+                            result1.style.display = "none"
+
+                             const result2 = document.getElementById('result2');
+                            result2.style.display = "block"
+                        });
+    </script>
+</body>
+
+</html>
